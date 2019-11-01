@@ -1,0 +1,5 @@
+@mixin responsive-medium {
+    @media (min-width: #{$responsive-medium-width}) {
+        @content;
+    }
+}
